@@ -1,2 +1,1 @@
-# Gastos
-Proyecto sistema  de gastos
+# Curso
