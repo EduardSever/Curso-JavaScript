@@ -40,12 +40,54 @@ frase = numero1.concat(numero2);
 document.write(frase);*/
 
 /*Concatenación*/
-nombre = "Jose Perez";
+/*nombre = "Jose Perez";
 frase = " Soy "+nombre+" y estoy caminando";
-document.write(frase);
+document.write(frase); */
+
+// La mejor manera de concatenar
+// nombre = "Jose Perez";
+// frase = `Soy ${nombre} y estoy caminando`;
+// document.write(frase);
+// Ejemplo de operadores logicos
+// let numero = 23;
+// let numero1 = 23;
+// document.write(numero==numero1);
+// let numero = 23;
+// let numero1 = 23;
+// iniquality
+// (a!=b)
+// document.write(numero!=numero1);
+
+//Lo siguiente compara solo el valor no el tipo de dato, por los tanto es Veradero.
+// numero=5;
+// let texto01="5";
+// let texto02="Suerte";
+// // equality (a==b)
+// document.write(texto01==numero);
+
+// Lo siguiente compara todo el valor y el tipo de dato, por lo tanto false.
+// numero=5;
+// let texto01="5";
+// let texto02="Suerte";
+// // equality (a==b)
+// document.write(texto01===numero);
 
 
+// let numeroo = 10;
+// numeroo **= 2;
+// nombre = "Alan";
+// frase=`Soy un crat ${nombre} y tengo ${numeroo} años`;
+// document.write( frase);
 
+
+let numero = 23;
+let numero2= 13;
+let texto = "23";
+let texto2 ="texto 2";
+//El resultado es false ya que solo se evalua el valor;
+document.write(texto==numero);
+//El resultado es false ya que extrictamente no son iguales
+document.write(texto===numero);
 
 
 
