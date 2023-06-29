@@ -80,22 +80,79 @@ document.write(frase); */
 // document.write( frase);
 
 
-let numero = 23;
-let numero2= 13;
-let texto = "23";
-let texto2 ="texto 2";
-//El resultado es false ya que solo se evalua el valor;
-document.write(texto==numero);
-//El resultado es false ya que extrictamente no son iguales
-document.write(texto===numero);
+// let numero = 23;
+// let numero2= 13;
+// let texto = "23";
+// let texto2 ="texto 2";
+// //El resultado es false ya que solo se evalua el valor;
+// document.write(texto==numero);
+// //El resultado es false ya que extrictamente no son iguales
+// document.write(texto===numero);
+
+// let numero = 23;
+// let numero2= 13;
+// let texto = "23";
+// document.write(texto !== numero);
+
+// num1=12;
+// num2=24;
+// num3=25;
+// num4=92;
+// num5=91;
+// //Al desarrollo de los operadores logicos resulta true;
+// op=(num5>num2 && num4<num3)||(!(num1===num2)|| num3 !=num3 );
+// //Resultado de los operadores logicos;
+// op1=(true);
+// document.write(op);
 
 
+// {
+//     alert("hola");
+//     document.write("Jhon")
+// }
+// nombre = "Salomon";
+// apellido = "Mosoline";
 
+// if (nombre == "Salomo") {
+//     // alert("Soy " + nombre);
+// }
+// if (apellido == "Mosolin") {
+//     alert(" "+ apellido);
+// }
+// else {
+//     alert("No es " + apellido);
+// }
+//Arrays
+// let flores = ["rosa","jazmin","dalia","nueva",9,1,6,"Margarita"];
+// document.write(flores[4]);
 
+//Arrays asociativos.
+// let pc1 = {
+//     nombre: "hp",
+//     procesador : "Intel",
+//     ram : "569GB",
+//     rom: "8GB"
+// };
+// let pc2 =[ "Dell", "Intel core i9", "569GB", "8GB"];
 
+// document.write(pc2);
+//Este segundo array es mas iteractivo.
+// document.write(pc1["nombre"]);
 
+let pc1 ={
+    nombre: "hp",
+    procesador: "Intel core i7",
+    ram: "16GB",
+    disco: "160GB"
+}
 
+let nombre= pc1["nombre"];
+let procesador = pc1["procesador"];
+let ram = pc1["ram"];
+let disco = pc1["disco"];
 
+frase = `El nombre de mi pc es <b> ${nombre}</b><br> 
+y tiene un procesador <b> ${procesador} </b> <br> 
+y una ram de <b>${ram}</b> con un almacenamiento de <b> ${disco} </b> SDD`;
 
-
-
+document.write(frase);
