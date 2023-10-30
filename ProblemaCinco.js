@@ -1,5 +1,5 @@
 const ObtenerInformacion = (materia) => {
-    materias = {
+    const materias = {
         fisica: ["Mendoza", "kofla", "carmen", "Kofla"],
         programacion: ["Arellano", "Karla", "Juanito", "Kofla"],
         logica: ["Juarez", "Guadalupe", "Dalia", "Kofla"],
@@ -33,7 +33,7 @@ const cantidadDeClases = (alumno) => {
         }
     }
     return `<b style='color:blue'>${alumno}</b> está en ${cantidadTotal} clases</b><br>
-    Está cursando las clases: <b>${clasesPresentes}</b><br><br>
+    Está cursando las clases de: <b style='color:green'>${clasesPresentes}</b><br><br>
     `;
 }
 ejecutarInformación("fisica");
